@@ -1,0 +1,95 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+    color: #69696a;
+    background-color: #f9fafc;
+    padding: 5px;
+}
+h1 {
+    margin-top: 100px;
+    font-weight: 800;
+    color: #000;
+}
+
+a {
+    color: #69696a;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+nav a {
+    
+    padding: 20px;
+
+}
+#company {
+    padding: 10px;
+    float: left;
+    color: #000;
+    font-weight: 800;  
+}
+#hireus {
+    background-color: #000;
+    color: white;
+    border-radius: 30px;
+    
+}
+.textbox p {
+    border-left: 2px solid #69696a;
+
+    padding: 5px;
+    
+}
+.circlebox {
+    position: relative;
+    float: right;
+    width: 600px;
+    height: 400px;
+
+   
+}
+.circle1 {
+    background-color: rgba(247, 193, 162, 0.7);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+
+}
+.circle2 {
+    background-color: rgba(207, 130, 213, 0.6);
+    height: 150px;
+    width: 150px;
+    left: 250px;
+    top: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+.circle3 {
+    position: absolute;
+    background-color: rgba(247, 136, 167, 0.6);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+footer {
+  
+    clear: both;
+
+    
+    
+}
+footer p {
+    
+    background-color: #000;
+    color: white;
+    margin: 100px 500px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
